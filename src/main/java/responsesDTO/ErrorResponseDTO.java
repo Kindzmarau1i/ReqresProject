@@ -1,13 +1,15 @@
 package responsesDTO;
 
 public class ErrorResponseDTO {
-    private String errorMessage;
+    private String error;
 
     public ErrorResponseDTO(String errorMessage) {
-        this.errorMessage = errorMessage;
+        this.error = errorMessage;
     }
 
+    public ErrorResponseDTO() {}
+
     public String getError() {
-        return errorMessage;
+        return error;
     }
 }

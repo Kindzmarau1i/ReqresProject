@@ -12,6 +12,8 @@ public class SingleUserResponseDTO {
         this.support = support;
     }
 
+    public SingleUserResponseDTO() {}
+
     public Data getData() {
         return data;
     }

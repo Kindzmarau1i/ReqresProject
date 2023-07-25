@@ -9,6 +9,8 @@ public class RegisterResponseDTO {
         this.token = token;
     }
 
+    public RegisterResponseDTO() {}
+
     public Integer getId() {
         return id;
     }
